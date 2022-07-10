@@ -11,6 +11,7 @@ This project implements the A* search algorithm used to find the shortest distan
 
 
 **Cost Function**
+
 1- The algorithm tries to minimize the cost function f=g+h
 2- h is the heuristic function which is the most optimistic considering there are no obstacles between start and end points
 3- The g function considers the actual path with the obstacles that are along the path
